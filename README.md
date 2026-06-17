@@ -61,8 +61,8 @@ ai-tutor/
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/yourusername/ai-tutor-lite.git
-cd ai-tutor-lite
+git clone https://github.com/yourusername/ai-tutor-lite-v1.git
+cd ai-tutor-lite-v1
 ```
 
 ### 2. Create virtual environment
