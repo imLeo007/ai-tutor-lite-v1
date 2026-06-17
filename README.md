@@ -130,6 +130,7 @@ Gemini Generates Response
 Chat Saved To PostgreSQL
 ↓
 History Retrieved From Database
+```
 
 ---
 
