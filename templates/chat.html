@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Tutor</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<h1>AI Tutor</h1>
+
+<button onclick="logout()">
+    Logout
+</button>
+
+<hr>
+
+<h3>Ask a Question</h3>
+
+<textarea
+    id="prompt"
+    rows="5"
+    placeholder="Ask a question">
+</textarea>
+
+<button onclick="sendMessage()">
+    Send
+</button>
+
+<hr>
+
+<h3>AI Response</h3>
+
+<div id="response"></div>
+
+<hr>
+
+<h3>History</h3>
+
+<button onclick="loadHistory()">
+    Load History
+</button>
+
+<div id="history"></div>
+
+<script src="/static/chat.js"></script>
+
+</body>
+</html>
