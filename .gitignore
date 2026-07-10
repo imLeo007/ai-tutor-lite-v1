@@ -1,6 +1,12 @@
 .env
+
 __pycache__/
 *.pyc
+
+venv/
 .venv/
-alembic.ini
+
+.vscode/
+.idea/
+
 .DS_Store

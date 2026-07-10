@@ -7,11 +7,21 @@ from database import Base
 from models.chats import Chat
 from models.user import User
 
+from dotenv import load_dotenv
+import os
+
 from alembic import context
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
 config = context.config
+
+load_dotenv()
+
+config.set_main_option(
+    "sqlalchemy.url",
+    os.getenv("DATABASE_URL")
+)
 
 # Interpret the config file for Python logging.
 # This line sets up loggers basically.
